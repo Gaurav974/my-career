@@ -1,0 +1,13 @@
+
+.para-1{
+   @include para(rgb(98, 148, 88),#fff);
+   & span{
+    background-color: red;
+}
+}
+.para-2{
+   @include para(rgb(91, 161, 157),#fff);
+    & span{
+        background-color: red;
+    }
+}

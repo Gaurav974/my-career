@@ -1,0 +1,30 @@
+<div class="container">
+    <!-- <section>
+         <p *ngIf="!isavlable" >directives works!</p>
+         <p *ngIf="2 === 2" class="alert alert-danger"> example of *ngIf='2 === 2'</p>
+         <hr>
+         <ul *ngFor="let item of arr ; let i = index" class="list-group">
+            <li class="list-group-item" [ngStyle]="{'background-color': i % 2 == 0 ? 'red' : 'green'}">{{item.Name}}</li>
+         </ul>
+         <hr>
+         <div [ngSwitch]="color" class="w-25">
+            <p *ngSwitchCase="'red'" class="alert alert-secondary">red</p>
+            <p *ngSwitchCase="'orenge'" [ngClass]="color === 'orenge' ? 'alert alert-primary' :'alert alert-danger'">orenge</p>
+            <p *ngSwitchCase="'blue'"[ngStyle]="{color : 'white' ,'backgroundColor' : 'blue' ,'padding' :'12px 20px'}">blue</p>
+            <p *ngSwitchDefault class="alert alert-danger"> plase select color</p>
+         </div>
+         <select [(ngModel)]="color" class="w-25">
+            <option value="">select one</option>
+            <option value="red">red</option>
+            <option value="orenge">orenge</option>
+            <option value="blue">blue</option>
+         </select>
+         <hr>
+         <p [ngClass]="ngclass ? 'is' : 'this'">Lorem ipsum dolor sit amet</p>
+    </section> -->
+    <section>
+      <app-custum-directive></app-custum-directive>
+    </section>
+</div>
+
+

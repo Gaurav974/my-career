@@ -1,0 +1,9 @@
+<div class="container">
+    <p class="alert alert-info">{{oneWayBind}}</p>
+    <p [innerHTML]="oneWayBind" class="alert alert-info"></p>
+    <hr>
+    <input type="text" class="form-control" [(ngModel)]="inputdata" >
+    <p [innerHTML]="inputdata"></p>
+    <hr>
+    <input type="text" class="form-control" #eventdata (input)="onClick(eventdata.value)" >
+</div>

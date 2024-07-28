@@ -1,0 +1,5 @@
+@mixin para($bg-color, $text-color){
+    background-color: $bg-color;
+    color: $text-color;
+    padding: 10px;
+}
